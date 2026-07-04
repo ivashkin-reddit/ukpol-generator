@@ -3,12 +3,6 @@
 Generate drop-in [r/ukpolitics](https://www.reddit.com/r/ukpolitics/) AutoModerator
 social-media whitelist rules from the UK Parliament Members API.
 
-Each generated rule mirrors the existing "Rule K-01 Whitelisted Twitter Accounts":
-it reports (flags for moderator review) any link submission to a platform whose
-account is **not** in the whitelist of known MP/Lord accounts. The output is a
-separate drop-in file — it is never wired into `ukpolitics-automod.yaml`
-automatically, and its `set_flair` values are deliberate placeholders.
-
 ## Architecture
 
 The project uses a hexagonal (ports-and-adapters) layout under
