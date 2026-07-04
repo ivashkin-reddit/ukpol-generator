@@ -1,0 +1,11 @@
+# python-quality-baseline .gitattributes.
+# Python sources are checked out with LF to match the Ruff formatter's
+# line-ending = "lf" setting on every platform, including Windows.
+
+* text=auto
+*.py text eol=lf
+*.pyi text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
